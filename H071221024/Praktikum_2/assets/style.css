@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: coral;
+    position: fixed; 
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: rgb(134, 76, 5);
+}
+
+.paraf {
+    padding: 90px 200px 30px;
+    /* padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px; */
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+.gallery {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-wrapper {
+    width:  400px;
+    height: 300px;
+    overflow: hidden;
+}
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+.image-wrapper img:hover {
+    transform: scale(1.1);
+}
+.footer {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+}
+.section1 .logo_unhas {
+    margin-left: 130px;
+    padding-bottom: 10px;
+}
+.section1 p {
+    margin-left: 70px;
+}
+.section2 p {
+    color: white;
+}
+.logo_unhas{
+    width: 50px;
+}
+.nama-univ{
+    color: white;
+}
+@media (max-width: 900px) {
+    .paraf {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .image-wrapper {
+        width: 80%;
+        height: 60%;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1 p {
+        margin: 0;
+    }
+    .section1 .logo_unhas{
+        margin: 0;
+    }
+    .section2 p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .nama-univ {
+        text-align: center;
+    }
+}

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Praktikum 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/style/styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid d-flex ps-4 pe-4 gap-1">
+        <a class="navbar-brand text-white fs-4 display-4">AnimeList <img src="/assets/navbar/Akatsuki Logo.png" alt="AnimeList Logo" class="d-inline-block align-top" style="max-height: 33px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex flex-row gap-3 justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link text-white " aria-current="page" href="#carouselExampleCaptions">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="#top-rated-container">Top Anime</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="#ongoing-container">On Going</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="#upcoming-container">Upcoming</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="carousel slide" id="carouselExampleCaptions" data-bs-ride="false">
+      <div class="carousel-indicators" id="top-rated-container" id="picbig">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/about/pic1.jpg" class="d-block w-100" alt="about photos">
+          <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+          <div class="carousel-caption">
+            <h5>Welcome to AnimeList</h5>
+            <p>Dive into the vast world of anime and discover hidden gems and popular classics alike. Your ultimate guide to the anime universe.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/about/pic2.jpg" class="d-block w-100" alt="about photos">
+          <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+          <div class="carousel-caption">
+            <h5>Top Rated Series</h5>
+            <p>Explore the best-rated series and fan favorites, curated and ranked by our community. Join the conversation and share your favorites too.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/about/pic3.jpg" class="d-block w-100" alt="about photos">
+          <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+          <div class="carousel-caption">
+            <h5>Stay Updated</h5>
+            <p>Never miss out on the latest releases and updates. With AnimeList, you'll always be in the loop with the anime world and a passionate community to engage with.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev position-absolute" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next position-absolute" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container" id="content">
+      <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-white display-6 pt-4 pb-4">Top Anime</h1> <!-- >=768px -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/top/Walpaper Yourname.jpeg" class="card-img-top" alt="yourname">
+              <div class="card-body">
+                <h5 class="card-title">Your Name</h5>
+                <p class="card-text">Revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.</p>
+                <a href="https://myanimelist.net/anime/32281/Kimi_no_Na_wa?q=your%20na&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/top/Walpaper AOT.png" class="card-img-top" id="AOT" alt="AOT">
+              <div class="card-body">
+                <h5 class="card-title">Attack On Titan</h5>
+                <p class="card-text">Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached.</p>
+                <a href="https://myanimelist.net/anime/16498/Shingeki_no_Kyojin?q=shingek&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/top/walpaper naruto.jpg" class="card-img-top" alt="naruto">
+              <div class="card-body">
+                <h5 class="card-title">Naruto: Shippuden</h5>
+                <p class="card-text">Naruto carry on with the fight for what is important to him, even at the expense of his own body, in the continuation of the saga about the boy who wishes to become Hokage.</p>
+                <a href="https://myanimelist.net/anime/1735/Naruto__Shippuuden?q=narut&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/top/walpaper onepiece.jpg" class="card-img-top" alt="one piece">
+              <div class="card-body">
+                <h5 class="card-title">One Piece</h5>
+                <p class="card-text">Luffy gathers one-of-a-kind companions to join him in his ambitious endeavor, together embracing perils and wonders on their once-in-a-lifetime adventure.</p>
+                <a href="https://myanimelist.net/anime/21/One_Piece?q=one%20&cat=anime" class="btn btn-light" id="ongoing-container">See Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="text-white display-6 pt-4 pb-4">On Going Anime</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/ongoing/jujutsu kaisen.jpg" class="card-img-top" alt="Jujutsu">
+              <div class="card-body">
+                <h5 class="card-title">Jujutsu Kaisen</h5>
+                <p class="card-text">Yuuji experiences first-hand the threat these Curses pose to society as he discovers his own newfound powers. Introduced to the Tokyo Metropolitan Jujutsu Technical High School, he begins to walk down a path from which he cannot return—the path of a Jujutsu sorcerer.</p>
+                <a href="https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season?q=juju&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/ongoing/Mushoku Tensei.jpg" class="card-img-top" alt="Mushoku Tensei" id="mushoku">
+              <div class="card-body">
+                <h5 class="card-title">Mushoku Tensei II</h5>
+                <p class="card-text">As Rudeus' second chance at life begins, he tries to make the most of his new opportunity while conquering his traumatic past. And perhaps, one day, he may find the one thing he could not find in his old world—love.</p>
+                <a href="https://myanimelist.net/anime/51179/Mushoku_Tensei_II__Isekai_Ittara_Honki_Dasu?q=mushoku&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/ongoing/Zom 100.png" class="card-img-top" alt="zom100">
+              <div class="card-body">
+                <h5 class="card-title">Zom 100: Zombie ni Naru made ni Shitai 100 no Koto</h5>
+                <p class="card-text">With the free time he finally has, Akira decides to complete a bucket list of a hundred things he wants to do before he eventually gets turned into a zombie. Although he is surrounded by the dead, Akira has never felt more alive!</p>
+                <a href="https://myanimelist.net/anime/54112/Zom_100__Zombie_ni_Naru_made_ni_Shitai_100_no_Koto?q=zom%20100&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/ongoing/Nanatsu No Maken.jpg" class="card-img-top" alt="nanatsu" id="nanatsu">
+              <div class="card-body">
+                <h5 class="card-title">Nanatsu No Maken</h5>
+                <p class="card-text">Under the leadership of Oliver Horn, a young man who seems to hide a troubled past, Nanao and her newfound friends start their magical apprenticeship at Kimberly—where only four out of five students make it to graduation in one piece.</p>
+                <a href="https://myanimelist.net/anime/50582/Nanatsu_no_Maken_ga_Shihai_suru" class="btn btn-light" id="upcoming-container">See Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container d-flex flex-column justify-content-center align-items-center pb-4">
+        <h1 class="text-white display-6 pt-4 pb-4">Upcoming Anime</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/upcoming/AOT.jpg" class="card-img-top" alt="AOT">
+              <div class="card-body">
+                <h5 class="card-title">Attack On Titan Final Season</h5>
+                <p class="card-text">As Eren pushes battles his own internal turmoil. Although he feels immense remorse over his horrific invasion, Eren believes he harbors noble intentions: he believes the path ahead is the only way to save his friends.</p>
+                <a href="https://myanimelist.net/anime/51535/Shingeki_no_Kyojin__The_Final_Season_-_Kanketsu-hen" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/upcoming/Haikyuu.jpg" class="card-img-top" alt="Haikyu">
+              <div class="card-body">
+                <h5 class="card-title">Haikyuu Movie</h5>
+                <p class="card-text">Their unfriendly introduction and subsequent rivalry forces the rest of the Karasuno team to bar both of them from joining the club until they can learn to work together as teammates, , reigniting competition between the two schools once more.</p>
+                <a href="https://myanimelist.net/anime/29755/Haikyuu_Movie_1__Owari_to_Hajimari" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/upcoming/SPY.jpg" class="card-img-top" alt="Spy x Family">
+              <div class="card-body">
+                <h5 class="card-title">Spy x Family S2</h5>
+                <p class="card-text">With Anya Forger successfully enrolled at the renowned Eden Academy, Operation Strix advances to its second phase. To investigate Ostanian politician Donovan Desmond, Anya must either befriend his son Damian or collect eight Stella Stars to become an Imperial Scholar.</p>
+                <a href="https://myanimelist.net/anime/50602/Spy_x_Family_Part_2?q=spy%20x%20&cat=anime" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-dark text-white">
+              <img src="/assets/card/upcoming/Tokrev.jpeg" class="card-img-top" alt="Tokrev" id="tokrev">
+              <div class="card-body">
+                <h5 class="card-title">Tokyo Revengers: Tenjiku-hen</h5>
+                <p class="card-text">Through a shared tragedy, Takemichi bonds with Chifuyu Matsuno, establishing a close comradery both boys desperately need. With Chifuyu on his side, Takemichi works to unravel the fates of Black Dragon's members.</p>
+                <a href="https://myanimelist.net/anime/54918/Tokyo_Revengers__Tenjiku-hen" class="btn btn-light">See Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark p-2 text-center">
+      <div class="container">
+          <p class="text-white m-0"> ©2023 All right reserved by Rasyy</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+#background-container {
+    background: url('assets/cards/wallpaper.jpeg') no-repeat center center fixed;
+    background-size: cover; 
+    text-align: center;}
+
+body {
+    text-align: center;
+}
+
+h1,
+h3,
+p {
+    font-size: 20px;
+    color:black;
+}
+
+.bot-cards img,
+.my-cards img {
+    width: 150px;
+    margin: 1px;
+}
+
+button {
+    width: 150px;
+    font-size: 16px;
+    margin: 2px;
+}

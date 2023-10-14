@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No1</title>
+</head>
+
+<body>
+    <script>
+        function hitungPangkat() {
+            const bilangan = parseInt(prompt("Masukkan Bilangan "));
+            const pangkat = parseInt(prompt("Masukkan besar pangkat "));
+            if (!isNaN(bilangan) && !isNaN(pangkat)) {
+                alert("Hasil dari " + bilangan + " berpangkat " + pangkat + " adalah " + bilangan ** pangkat);
+            } else {
+                alert("Inputan harus berupa angka");
+            }
+        }
+
+        hitungPangkat();
+    </script>
+</body>
+</html>

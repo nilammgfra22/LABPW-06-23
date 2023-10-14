@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No3</title>
+</head>
+
+<body>
+    <script>
+        function palindrom() {
+            let text = prompt("Masukkan text: ");
+            text = text.toLowerCase();
+            let reverseText = text.split("").reverse().join("");
+            if (text === reverseText) {
+                alert(text + " adalah Palindrom");
+            } else {
+                alert(text + " bukan Palindrom");
+            }   
+        }
+        palindrom();
+    </script>
+</body>
+</html>

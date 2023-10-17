@@ -1,0 +1,81 @@
+/* Style untuk navbar */
+.navbar {
+    background-color: rgb(34, 43, 174);
+  }
+  
+  .navbar-brand img {
+    width: 10%;
+  }
+
+ 
+  iframe {
+    display: block;
+    margin: 0 auto; /* Menengahkan iframe */
+    max-width: 100%; /* Batasan lebar maksimum */
+  }
+  
+  /* Style untuk carousel */
+  .carousel {
+    margin-top: 50px;
+  }
+  
+  .carousel-inner img {
+    width: 70%;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+/* css BUTTON */
+  .card a.btn {
+    background-color: blue;
+    color: rgb(250, 249, 251);
+  }
+  
+  /* Style untuk ABOUT section */
+  #about {
+    background-color: rgb(163, 26, 26);
+  }
+
+/* Mengatur tinggi container */
+#about {
+  /* min-height: 10vh;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Mengatur gambar logo Disney footer */
+.imgfooter img {
+  max-width: 10%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Mengatur ikon Play Store dan App Store */
+.unduh {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+/* Mengatur ukuran gambar Play Store dan App Store */
+.unduh img {
+  max-width: 100%;
+  /* height: auto; */
+  margin: 0 10px;
+}
+
+video{
+  margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+  video{
+    max-width: 500px;
+  }
+}

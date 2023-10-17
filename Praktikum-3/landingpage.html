@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<!-- konten -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="#"><img src="image/disneylogo.png"></i></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#film">FILM</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#about">DOWNLOAD</a>
+          </li>
+      </ul>
+  </div>
+</nav> 
+
+<!-- Elemen iframe untuk video YouTube -->
+<section class="HOME m-0 p-0" id="home" style="background-color: rgb(7, 7, 7);">
+    <img src="image/hotstar.jpeg" class="w-100">
+
+    <center>
+    <video src="image/video.mp4" type="video/mp4" autoplay loop muted></video>
+  </center>
+
+  <center>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/pixar.jpeg" class="d-block w-80 h-80 ">
+      </div>
+      <div class="carousel-item">
+        <img src="image/marvel.png" class="d-block w-80 h-80 ">
+      </div>
+      <div class="carousel-item">
+        <img src="image/starwars.jpeg" class="d-block w-80 h-80">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </center>
+</section>
+
+<section class="FILM" id="film" style="background-color: black;">
+  <div class="container text-center py-5 container">  <!-- py-5(y = vertikal)biar cardnya tdk menutupi footer-->
+    <div class="row g-3">
+       <img src="image/MOVIE RECOMENDATIONS.jpg">
+        <div class="col">
+            <div class="card h-100 mt-2">
+                <img src="image/f2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">WRECK-IT RALPH</h5>
+                    <a href="https://web.hotstar.com/id/movies/wreck-it-ralph/1260018135" class="btn" style="background-color: black">watch</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mt-2">
+                <img src="image/f6.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MOANA</h5>
+                    <a href="https://web.hotstar.com/id/movies/moana/1260017500" class="btn" style="background-color: black">watch</a>
+                </div>
+            </div>        
+        </div>
+        <div class="col">
+            <div class="card h-100 mt-2">
+                <img src="image/f7.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TOY STORY 4</h5>
+                    <a href="https://web.hotstar.com/id/movies/toy-story-4/1260015326" class="btn" style="background-color: black">watch</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mt-2">
+                <img src="image/f4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">AVENGERS</h5>
+                    <a href="https://web.hotstar.com/id/movies/marvels-the-avengers/1660000015" class="btn" style="background-color: black">watch</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 mt-2">
+                <img src="image/f3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">FROZEN II</h5>
+                    <a href="https://web.hotstar.com/id/movies/frozen-ii/1260022015" class="btn" style="background-color: black">watch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<footer id="about" class="py-3 text-center">
+  <div class="imgfooter">
+    <!-- LOGO DISNEY FOOTER -->
+    <img src="image/disneylogo.png" alt="Disney Logo">
+  </div>
+
+  <div class="row"> <!-- agar gambarnya horizontal dan di tengah -->
+    <div class="unduh"> <!-- PLAYSTORE -->
+      <a href="https://play.google.com/store/search?q=disney%2B+hotstar&c=apps&hl=en-ID">
+        <img src="image/ps.png" style="width: 80px;"  alt="Play Store">
+      </a>
+  
+      <a href="https://apps.apple.com/id/app/disney-hotstar/id1524156685?l=id">
+        <img src="image/as.webp" style="width: 70px;" alt="App Store">
+      </a>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>

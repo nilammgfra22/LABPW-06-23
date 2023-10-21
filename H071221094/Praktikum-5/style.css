@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: rgb(2, 48, 2);
+    text-align: center;
+}
+
+.game{
+    background: transparent url(images/Background/bgblckjk.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.action {
+    position: absolute;
+    bottom: 4%;
+    left: 28%;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    background-color: rgba(208, 214, 8, 0.7);
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.action button{
+    margin: 2px;
+}
+
+.teks{
+    text-align: center;
+}
+
+.teks h3{
+    padding-top: 60px;
+}
+
+.duwit{
+    position: absolute;
+    right: 600px;
+    bottom: 50px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(206, 154, 90);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.duwit h3{
+    font-size: 100%;
+    color: aqua;
+}
+
+container{
+    align-items: justify;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+
+    }
+.card1{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.card2{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.bot-cards img,
+.my-cards img{
+    width: 100px;
+    margin: 1px;
+}
+
+
+
+.tulisan-output p{
+    position: relative;
+    top: 160px;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }

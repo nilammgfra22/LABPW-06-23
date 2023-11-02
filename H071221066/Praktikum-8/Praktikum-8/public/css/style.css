@@ -1,0 +1,23 @@
+/* body {
+    background-color: #e7e7d3;
+}  */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-link {
+    background-color: #f3bde2;
+    color: #000000;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 149, 216); 
+    color: #fff;
+}
+

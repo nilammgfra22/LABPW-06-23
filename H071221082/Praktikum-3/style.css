@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+.nav-item a{
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    max-width: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    height: 600px;
+}
+
+.series-card{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.series-card h5{
+    align-items: center;
+    color: white;
+}
+
+.card-title{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.series-card img{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+
+.row{
+    text-align: center;
+}
+
+.card img{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+
+.card img:hover{
+    transition: scale(1.1);
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
+
+.container-1 h3{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.d-flex .col-12 {
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+
+.rekomendasi h3, .list h3, .populer h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.footer{
+    background-color: rgb(132, 17, 141);
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+}
+
+.logo{
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.logo p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.contact{
+    margin-right: 90px;
+}
+
+.contact p{
+    color: white;
+    font-weight: bold;
+    float: left;
+    padding-left: 40px;
+    margin: 5px;
+}
+
+.series-card img:hover{
+    transform: scale(1.1) ;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        height: 250px;
+    }
+    .contact{
+        margin-bottom: 30px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .contact p{
+        width: 300px;
+        text-align: center;
+        padding: 0;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item img{
+        padding: 0;
+        height: 400px;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        height: 400px;
+    }
+}

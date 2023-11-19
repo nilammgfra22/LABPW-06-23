@@ -1,105 +1,10 @@
-dccal
-dccal
-Do Not Disturb
 
-البروفيسور دكتور. آندي محمد هيكل — 13/10/2023 22:50
-@Who?
-https://store.steampowered.com/app/2543300/Joy_Life_2/?snr=1_4_4__145_2
-Steam
-Joy Life 2
-Game introductionAlthough being sick and hospitalized is not something worth celebrating, as the most involved employee in the company, due to the accumulation of long overtime work, he was finally overwhelmed and fell ill... but he gave himself a short vacation.The company hired a nurse to take care of your daily life for you, and she left a de...
-Price
-$2.79
-gamenya joy
-البروفيسور دكتور. آندي محمد هيكل — 14/10/2023 21:31
-emang boleh @H3nry
-H3nry — Yesterday at 00:58
-turu bang @Piscok
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 01:00
-Parah
-H3nry — Yesterday at 01:04
-hilang kemana ko tdi ?
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 01:06
-Kau yang hilang anjir
-H3nry — Yesterday at 01:08
-lahh , padahal baruja pejamkan mata sekejap
-pas ku buka , anda sdh hilang
-Who? — Yesterday at 01:09
-Pejamkan mata sekaligus time skip
-H3nry — Yesterday at 01:09
-wkwkwk
-Naaoi — Yesterday at 09:24
-agak laen @Nito
-Image
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 14:24
-Tutorial bunuh diri
-Nito — Yesterday at 14:44
-subathon bang
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 16:22
-Link saweria
-Nito — Yesterday at 17:09
-setelah 17 - 3 jam, gejala yang gw dapat sakit kepala dan mudah terbawa emosi
-Image
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 17:09
-Kok lu ngak ngajak gw juga sih
-Naaoi — Yesterday at 17:09
-Keren sekarang sentuh rumput
-Nito — Yesterday at 17:11
-the real "dedikasi"
-udah sentuh rumpuit gw barusan aja kembali kerumah
-Naaoi — Yesterday at 17:12
-Bagus skrg lanjut main
-Nito — Yesterday at 17:13
-udah lelah bang
-Naaoi — Yesterday at 17:13
-Image
-Nito — Yesterday at 17:14
-@البروفيسور دكتور. آندي محمد هيكل gw mabar sama teman-teman wt gw di dc sebelah vbang
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 17:54
-Oh gitu ya bro
-Seandainya gw join sirkel
-Aku pasti di ajak
-Nda cuk,menyerahma bikin bustergacor @H3nry @Who?
-Who? — Yesterday at 17:57
-aowkoakwooakwk anjr
-sekeren apa mh web mu coo wkwk
-klo mubuat video ituu
-ada berapa kemungkinan itu hrus mu buatkan video smua wkwk
-Enoch — Yesterday at 20:42
-Ngerinya
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 22:25
-dc @Who? @H3nry
-Who? — Yesterday at 22:37
-gass
-Who? — Yesterday at 22:52
-@البروفيسور دكتور. آندي محمد هيكل bang
-البروفيسور دكتور. آندي محمد هيكل — Yesterday at 22:58
-manako @H3nry
-Who? — Yesterday at 23:06
-https://www.youtube.com/watch?v=Spw7PCdlV7c&ab_channel=TinyyTonyy
-YouTube
-TinyyTonyy
-FIGHT ME DEMON! GET OUTTA HERE BROTHERS! (ORIGINAL)
-Image
-@everyone gesss
-Image
-mabarrr
-البروفيسور دكتور. آندي محمد هيكل — Today at 00:23
-Emang boleh
-Image
-Sal1 — Today at 00:31
-wat the hell
-Who? — Today at 02:37
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nomor 2</title>
-Expand
-no2.php
-5 KB
-Who? — Today at 02:50
 <?php
     $data = [
         [
@@ -200,17 +105,6 @@ Who? — Today at 02:50
         <tbody>
             <?php if (!empty($filteredData)) : ?>
                 <?php foreach ($filteredData as $item) : ?>
-... (11 lines left)
-Collapse
-no1.php
-3 KB
-dahhh
-Naaoi — Today at 04:29
-busettt
-Enoch — Today at 08:16
-Image
-Naaoi — Today at 08:17
-﻿
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -327,5 +221,3 @@ Naaoi — Today at 08:17
     ?>
 </body>
 </html>
-no2.php
-5 KB

@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-image: url("/assets/BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 29px;
+    color: beige;
+}
+
+h3, 
+p {
+    font-size: 20px;
+    color: beige;
+}
+
+.bot-cards img,
+.my-cards img {
+    width: 150px;
+    margin: 10px;
+}
+
+button {
+    width: 150px;
+    font-size: 18px;
+    margin: 20px;
+}

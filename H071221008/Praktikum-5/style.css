@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-image: url(assets/bg.jpg);
+    /* background-repeat: no-repeat;
+    background-position: bottom-right;
+    background-color: black; */
+}
+
+h1,
+h3,
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.bot-cards img,
+.my-cards img {
+    width: 150px;
+    margin: 1px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+}
+
+#btn-start-game {
+    background-color: yellow;
+
+}
+#btn-take {
+    background-color:rgb(89, 89, 226);
+}
+#btn-hold {
+    background-color: rgb(204, 191, 191);
+}

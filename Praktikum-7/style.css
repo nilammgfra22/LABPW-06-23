@@ -1,0 +1,95 @@
+/*CSS HALAMAN ADMIN*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #27a9d5;
+}
+
+/* Style header */
+h1 {
+    /* margin-top: 0; */
+    background-color: #e90e15;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    color: #27a9d5;
+    text-align: center;
+}
+
+/* Style forms */
+form {
+    background-color: #c5c0c0;
+    /* padding: 20px; */
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 5px; /* Sudut lengkung*/
+}
+
+/* Style form label */
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Style bagian button inputnya */
+input[type="text"], button {
+    color: #000000;
+    width: 70%; /* Mengatur lebar inputan dan tombol menjadi 100% */
+    /* padding: 10px; */
+    border: 1px solid #ccc; /* Menambah border untuk input agar terlihat rapi */
+    border-radius: 5px; /* Menambah sudut lengkung untuk input */
+}
+
+/* Style bagian button inputnya */
+button {
+    background-color: #28f491;
+    color: #ffffff;
+    border: none;
+    margin: 10px auto; /* Mengubah margin dan menambah "auto" untuk tengahkannya */
+    display: block; /* Menambah "display: block" untuk membuat tombol menempati seluruh lebar */
+    padding: 10px;
+    width: 50%; /* Mengatur lebar tombol sesuai keinginan */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style table */
+table { /* Style table */
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto; /*spy tabelnya ditengah*/
+}
+
+table thead { /*tabel headnya*/
+    background-color: #333;
+    color: #fff;
+}
+
+table td { 
+    padding: 10px; /*untuk atur bagian isi tabel dilebar tabelnya*/
+    background-color: #ffffff;
+}
+
+table th { /* Style isi tabel headnya*/
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody tr{ /* Style isi */
+    text-align: center; /*supaya isi data ditengah*/
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+

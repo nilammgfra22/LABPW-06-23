@@ -1,0 +1,105 @@
+*, html, body { /*untuk terapkan di kelas bawah semuahnya*/
+    margin: 0; 
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    background-color: white; 
+}
+
+.navbar{
+    display: flex; /*supaya tulisannya ditengah*/
+    background-color: darkseagreen;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem 7%;
+    position: fixed; /*supaya navbarnya diar digeser ke bawah ttp ada navbarnya*/
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1; /*supaya gambar tdk menutupi navbar ketika dipencet*/
+} 
+
+.navbar .navbar-nav a{
+    display: inline-block;
+    padding: 3px;
+    color: brown;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav a:hover{ /*agar tulisan di navbar berubah warna ketika dipencet*/
+    color: rgb(58, 7, 199); 
+}
+
+.tittle {
+    display: flex;
+    justify-content: center; 
+    padding-top: 100px;
+    padding-bottom: 10px;
+    /* padding: 20px 50px 20px 70px; */
+}
+
+.tittle h1 {
+    color : rgb(10, 105, 105);
+    font-weight: 650;
+    margin-top: 10px;
+}
+
+.about p {
+    display: flex;
+    padding:0 15% 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify; /*agar tulisannya rata kiri kanan*/
+    color: pink;
+}
+
+.gallery {
+    display: grid; /*untuk atur baris dan kolom*/
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    text-align: center;  
+    padding: 1rem;
+}
+    
+.gallery .sky img {
+    width: 60%;
+    height: 70%;
+    padding: 10px;
+    transition: 1s;
+}
+    
+.gallery .sky img:hover {
+    transform: scale(1.2);
+}
+
+footer{
+    background-color:#f67280;
+    display: flex;
+    justify-content: space-between; /* menempatkan scr horizontal dan memberi ruang kosonga antar elemen */
+    align-items: center;
+    bottom: 0;
+}
+
+.pixar img{
+    width: 20%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.links p{
+    display: flex;
+    color: white;
+    padding: 0.3rem ;
+    padding-right: 100px; 
+}
+
+@media (max-width: 800px) {
+    footer{
+        flex-direction: column;
+    } 
+    .pixar img{
+        margin: auto; /*spy ketika diperkecil pixar dan kontak susunannya atas bawah*/
+    }
+}

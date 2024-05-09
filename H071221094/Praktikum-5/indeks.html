@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judiiii</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+
+<body>
+    <div class="game">
+        <container>
+            <div class="card1">
+                <h3 style="font-family: fantasy; color: cyan;text-shadow: 0 0 10px rgba(4, 161, 166)">Bot Cards :
+                </h3>
+                <div class="bot-cards">
+                    <img class="hidden-card" src="images/cards/BACK.png" alt="" >
+                </div>
+                <h3 style="font-family: fantasy; color: cyan;text-shadow: 0 0 10px rgba(4, 161, 166)">
+                    <span class="bot-sums"></span>
+                </h3>
+            </div>
+            <div class="card2">
+                <h3 style="font-family: fantasy; color: cyan;text-shadow: 0 0 10px rgba(4, 161, 166)">Your Card :
+                </h3>
+                <div class="my-cards">
+                    <img src="images/cards/BACK.png" class="hidden-card" alt="">
+                </div>
+                <h3 style="font-family: fantasy; color: cyan;text-shadow: 0 0 10px rgba(4, 161, 166)"> <span
+                        class="my-sums"></span></h3>
+            </div>
+        </container>
+        <div class="tulisan-output">
+            <p id="result"></p>
+        </div>
+        <div class="duwit">
+            <h3>Jumlah Uang : Rp. <span id="my-money">5000</span> </h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-- <audio autoplay loop>
+            <source src="audio/audioBg.mp3" type="audio/mp3">
+        </audio> -->
+    </div>
+
+
+    <div class="action">
+        <button type="button" id="btn-start-game" class="btn btn-dark" style="width: 110px;">Start Game</button>
+        <button type="button" id="btn-take" class="btn btn-dark" style="width: 110px;">Take a Card</button>
+        <button type="button" id="btn-hold" class="btn btn-dark" style="width: 110px;">Hold Card</button>
+        <input placeholder="Place Your Bet...." type="number" min="0" oninput="validity.valid||(value='')" required>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="algoritma.js"></script>
+</body>
+
+</html>

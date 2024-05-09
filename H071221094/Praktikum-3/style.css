@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+a {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .custom-font {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    /* font-size: 300%; */
+  }
+  
+  .menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+      url(image/‘Lofi\ Girl’\ Returns\ To\ YouTube\ To\ Introduce\ A\ New\ Friend_\ ‘Synthwave\ Boy’\ -\ DesignTAXI_com.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .video-bg {
+    width: 100%;
+    height: 100vh;
+  }
+  .video-bg video {
+    filter: brightness(0.3);
+    top: 776px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  footer{
+    position: relative;
+    height: 300px;
+  }
+
+  .video-bg p{
+    position: absolute;
+    z-index: 100;
+    color: aliceblue;
+    top: 130%;
+    left: 20px;
+  }
+  

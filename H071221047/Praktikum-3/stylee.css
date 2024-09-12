@@ -1,0 +1,70 @@
+body {
+    background-color: #efeaea;
+}
+
+/* .navbar.bg-body-tertiary {
+    background-color: #280101;
+} */
+
+.navbar-brand {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* Style untuk caraousel */
+#carouselExample {
+    margin-top: 100px;
+} 
+
+
+.featurette {
+    margin-top: 20px; /* Atur jarak atas elemen featurette */
+}
+
+.featurette-heading {
+    font-size: 50px; /* Atur ukuran font judul "Early Start" */
+    font-weight: bold; /* Atur ketebalan font judul "Early Start" */
+}
+
+.lead {
+    font-size: 20px; /* Atur ukuran font teks lead */
+    line-height: 1.8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Atur tinggi baris untuk teks lead */
+    text-align: justify;
+}
+
+/* .featurette-image {
+    max-width: 100%; 
+} */
+
+
+/* Styling untuk card nya */
+.card-title {
+    font-weight: bold;
+}
+
+/* Style untuk card footers */
+.card-footer {
+    background-color: #fdfefe;
+}
+
+.btn-primary {
+    background-color: rgb(185, 151, 216);
+}
+
+/* Style the footer */
+footer.container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #333;
+}
+
+/* Style the "Back to top" link */
+footer .float-right a {
+    font-weight: bold;
+}
+
